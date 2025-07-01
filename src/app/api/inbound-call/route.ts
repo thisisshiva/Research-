@@ -2,7 +2,8 @@
 import { NextResponse } from "next/server";
 import { twiml } from "twilio";
 
-export async function POST(req: Request) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export async function POST(_req: Request) {
   const VoiceResponse = twiml.VoiceResponse;
   const response = new VoiceResponse();
 
